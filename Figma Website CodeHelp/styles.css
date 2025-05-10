@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    /* height: 100vh; */
+    /* width: 100vw; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0 auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 15%;
+    width: 100%;
+}
+
+.explore{
+    margin: 0 auto;
+    word-spacing: 100px;
+    letter-spacing: 1px;
+    color: grey;
+
+}
+
+.btn{
+    border-radius: 6px;
+    height: 45px;
+    width: 120px;
+    background-color: blue;
+    font-size: 14px;
+    border: hidden;
+    color: white;
+}
+
+.team{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.underline{
+    display: inline-block;
+    position: relative;
+}
+
+.underline::after {
+    content: "";
+    display: block;
+    width: 80%; 
+    max-width: 100%; 
+    margin: 0 auto; 
+    border-bottom: 2px solid grey;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -4px; 
+    top: 0;
+}
+
+.team:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.underline:hover::after{
+    border-color: blue;
+}
+
+.content{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.team-codehelp{
+    display: flex;
+    gap: 10%;
+    
+}
+
+.content1{
+    width: 45%;
+
+}
+
+.image1{
+    width: 45%;
+}
+
+.about1{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.u2{
+    display: inline-block;
+    position: relative;
+}
+
+.u2::after {
+    content: "";
+    display: block;
+    width: 80%; 
+    max-width: 100%; 
+    margin: 0 auto; 
+    border-bottom: 2px solid grey;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -8px; 
+    top: 0;
+}
+
+.img1{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.founder{
+    display: flex;
+    gap: 10%;
+    margin-top: 100px;
+}
+
+.image2{
+    width: 45%;
+    object-fit: cover;
+}
+
+.content2{
+    width: 45%;
+}
+
+.img2{
+    height: 350px;
+    width: 70%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.underline-footer{
+    width: 100%;
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.footer{
+    display: flex;
+    /* gap: 20%; */
+    justify-content: space-between;
+}
+
+/* .c4{
+    background-color: blue;
+} */
+
+.second-content{
+    margin-top: 50px;
+}
+
+.l1{
+    margin-bottom: 40px;
+}
+
+.privacy{
+    color: blue;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.p1{
+    margin-bottom: 6px;
+}
+
+.address{
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+.c2{
+    width: 300px;
+}
+
+.p3{
+    margin-bottom: 20px;
+}
+
+.p{
+    margin-bottom: 5px;
+}
+
+.aboutus{
+    color: blue;
+}
+
+.facebook1{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: blue;
+    border: hidden;
+}
+
+.privacy,.p,.facebook1:hover{
+    cursor: pointer;
+}
